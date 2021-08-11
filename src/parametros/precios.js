@@ -6,5 +6,6 @@ export const quiromasaje = {
     quiromasajeDescontracturante: 30,
     quiromasajeRecuperador: 30,
     quiromasajeDeportistas: 25,
-    quiromasajeJubilados: 30
+    quiromasajeJubilados: 30,
+    pruebas:33
 }
