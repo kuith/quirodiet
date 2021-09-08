@@ -1,0 +1,58 @@
+.fondo {
+  background-color: rgb(255, 210, 166);
+}
+
+.acmeNavbar {
+  font-size: 2.5em;
+}
+
+.navBarAncho{
+  width: 100%;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.navbar-item {
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0,0,0,0.4);
+}
+
+.imagen-intro {
+  margin-top:1em;
+}
+
+.LogoPrincipal {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-height: 150px;
+}
+
+
+.estiloCard {
+  max-width: 540px;
+}
+
+.precioCard {
+  font-size: x-large;
+}
+
+.linkCard {
+  text-decoration: none;
+}
+
+.textoCard {
+  font-size: larger;
+}
+
+.linkTitulo {
+  font-size: xx-large;
+  margin-bottom: 1em;;
+}
