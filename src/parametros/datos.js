@@ -1,4 +1,4 @@
-export const quiromasaje = {
+const quiromasaje = {
     quiromasajePrecioCard: 22,
     quiromasajeTitulo: "Quiromasaje",
     quiromasajeAclaracionCard: "(Con bono de 10)",
@@ -12,14 +12,14 @@ export const quiromasaje = {
     quiromasajeJubilados: 30,
 }
 
-export const osteopatia = {
+const osteopatia = {
     osteopatiaPrecioCard: 22,
     osteopatiaTitulo: "Osteopatía",
     osteopatiaAclaracionCard: "(Con bono de 10)",
     osteopatiaTextoCard: "Tratamiento de dolencias basado en masajes y manipulación de articulaciones beneficiando tu salud."
 }
 
-export const presoterapia = {
+const presoterapia = {
     presoterapiaPrecioCard: 22,
     presoterapiaTitulo: "Presoterapia",
     presoterapiaAclaracionCard: "(Con bono de 10)",
@@ -27,7 +27,7 @@ export const presoterapia = {
     presoterapiaSesion: 30
 }
 
-export const asesoramientoDeportivo = {
+const asesoramientoDeportivo = {
     asesoramientoDeportivoPrecioCard: 20,
     asesoramientoDeportivoTitulo: "Asesoramiento deportivo",
     asesoramientoDeportivoTextoCard: "Déjate asesorar por nuestros expertos, notarás un gran cambio",
@@ -35,7 +35,7 @@ export const asesoramientoDeportivo = {
     asesoramientoDeportivoTonificacion: 20
 }
 
-export const asesoramientoDietetico = {
+const asesoramientoDietetico = {
     asesoramientoDieteticoPrecioCard: 20,
     asesoramientoDieteticoTitulo: "Asesoramiento dietético",
     asesoramientoDieteticoTextoCard: "Una buena alimentación te hara sentir bien y mejorar tu cuerpo.",
@@ -43,7 +43,7 @@ export const asesoramientoDietetico = {
     asesoramientoDieteticoSeguimiento: 20
 }
 
-export const bonos = {
+const bonos = {
     bonosPrecioCard: 76,
     bonosTitulo: "Bonos",
     bonosTextoCard: "Ahorra o regala bienestar.Te lo agradecerán.",
@@ -54,14 +54,25 @@ export const bonos = {
     bonoDieta: 35
 }
 
-export const rejuvenecimiento = {
+const rejuvenecimiento = {
     rejuvenecimientoPrecioCard: 60,
     rejuvenecimientoTitulo: "Rejuveneciiento facial laser",
     rejuvenecimientoTextoCard: "Limpieza de anomalías de la piel, envejecimiento o manchas solares."
 }
 
-export const eliminacionTatuajes = {
+const eliminacionTatuajes = {
     eliminacionTatuajesPrecioCard: "60 / 80",
     eliminacionTatuajesTitulo: "Sesión de eliminación de tatuajes",
     eliminacionTatuajesTextoCard: "Tatuajes de todo tamaño y color."
+}
+
+export {
+    quiromasaje,
+    osteopatia,
+    presoterapia,
+    asesoramientoDeportivo,
+    asesoramientoDietetico,
+    bonos,
+    rejuvenecimiento,
+    eliminacionTatuajes
 }
