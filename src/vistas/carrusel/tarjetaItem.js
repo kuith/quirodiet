@@ -1,15 +1,20 @@
 import React from 'react';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import TextoCarruselItem from './textoCarruselItem';
 import ImagenCarruselItem from './imagenCarruselItem';
 
 const TarjetaItem = (props) => {
     return (
-        <div>
-          <h1>Esto es el {props.orden} elemento del carrusel</h1>
+      <Row>
+        <Col xs={6} >
           <TextoCarruselItem />
+        </Col>
+        <Col xs={6} >
           <ImagenCarruselItem />
-        </div>
+        </Col>
+      </Row>
     )
 }
 

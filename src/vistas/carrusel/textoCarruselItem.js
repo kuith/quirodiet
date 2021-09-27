@@ -2,7 +2,7 @@ import React from 'react';
 
 const TextoCarruselItem = (props) => {
     return (
-        <div>
+        <div className="textoCarrusel">
           Texto carrusel item.
         </div>
     )
