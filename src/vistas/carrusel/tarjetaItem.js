@@ -9,10 +9,10 @@ const TarjetaItem = (props) => {
     return (
       <Row>
         <Col xs={6} className="noMargen">
-          <TextoCarruselItem />
+          <TextoCarruselItem imagen={props.imagen}/>
         </Col>
         <Col xs={6} className="noMargen">
-          <ImagenCarruselItem />
+          <ImagenCarruselItem imagen={props.imagen}/>
         </Col>
       </Row>
     )
