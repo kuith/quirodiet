@@ -8,10 +8,10 @@ import ImagenCarruselItem from './imagenCarruselItem';
 const TarjetaItem = (props) => {
     return (
       <Row>
-        <Col xs={6} >
+        <Col xs={6} className="noMargen">
           <TextoCarruselItem />
         </Col>
-        <Col xs={6} >
+        <Col xs={6} className="noMargen">
           <ImagenCarruselItem />
         </Col>
       </Row>

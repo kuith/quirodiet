@@ -6,7 +6,7 @@
   font-size: 2.5em;
 }
 
-.navBarAncho{
+.navBarAncho {
   width: 100%;
 }
 
@@ -15,6 +15,7 @@
   left: 50%;
   transform: translatex(-50%);
 }
+
 .navbar-item {
   margin-left: 10%;
   margin-right: 10%;
@@ -22,11 +23,11 @@
 }
 
 .navbar.transparent.navbar-inverse .navbar-inner {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .imagen-intro {
-  margin-top:1em;
+  margin-top: 1em;
 }
 
 .LogoPrincipal {
@@ -54,27 +55,22 @@
 
 .linkTitulo {
   font-size: xx-large;
-  margin-bottom: 1em;;
+  margin-bottom: 1em;
+  ;
 }
 
 .imagenCarrusel {
+  /*border: solid purple;*/
+  float: left;
+}
+
+.textoCarrusel {
+  /*border: solid blue;*/
+  float: right;
+}
+
+.noMargen {
   margin: 0;
   padding: 0;
 }
 
-.textoCarrusel{
-  max-height: 500px;
-  max-width: 512px;
-  margin: 0;
-  padding: 0;
-}
-
-.bordePrueba{
-  border: solid black;
-  max-width: 1024px;
-}
-
-.carrusel{
-  display: flex;
-  justify-content: center;
-}

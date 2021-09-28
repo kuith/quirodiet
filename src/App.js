@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
 import './estilos.css';
 
 import Intro from './vistas/intro';
@@ -8,7 +9,7 @@ import ContenedorTarjetas from './contenedores/cuerpo/contenedorTarjetas';
 
 const App = () => {
   return (
-    <div className="container">
+    <Container>
        <BrowserRouter>
         <BarraNavegacion />
         <Switch>
@@ -16,7 +17,7 @@ const App = () => {
           <Route exact path="/servicios" component={ContenedorTarjetas} />
         </Switch>
       </BrowserRouter>
-    </div>
+    </Container>
   );
 }
 

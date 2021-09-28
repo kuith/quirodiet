@@ -19,22 +19,20 @@ const ContenedorTarjetas = () => {
       <div>
         <Logo />
         <Container>
-        <Carousel centered>
-          <Carousel.Item className="bordePrueba">
-            <TarjetaItem orden="Primer" />
-          </Carousel.Item>
+          <Carousel>
+            <Carousel.Item>
+              <TarjetaItem orden="Primer" />
+            </Carousel.Item>
 
-          <Carousel.Item className="bordePrueba">
-           <TarjetaItem orden="Segundo" />
-          </Carousel.Item>
+            <Carousel.Item>
+            <TarjetaItem orden="Segundo" />
+            </Carousel.Item>
 
-          <Carousel.Item className="bordePrueba">
-            <TarjetaItem orden="Tercero" />
-          </Carousel.Item>
-
-        </Carousel>
-
-      </Container>
+            <Carousel.Item>
+              <TarjetaItem orden="Tercero" />
+            </Carousel.Item>
+          </Carousel>
+        </Container>
       </div>
     )
 }
