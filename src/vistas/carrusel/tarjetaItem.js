@@ -7,7 +7,7 @@ import ImagenCarruselItem from './imagenCarruselItem';
 
 const TarjetaItem = (props) => {
     return (
-      <Row>
+      <Row xs="auto">
         <Col xs={6} className="noMargen">
           <TextoCarruselItem imagen={props.imagen}/>
         </Col>
