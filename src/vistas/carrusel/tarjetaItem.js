@@ -5,11 +5,11 @@ import Col from 'react-bootstrap/Col';
 import TextoCarruselItem from './textoCarruselItem';
 import ImagenCarruselItem from './imagenCarruselItem';
 
-const TarjetaItem = ({titulo, subtitulo, aclaracion, texto, imagen }) => {
+const TarjetaItem = ({titulo, precioCarrusel, aclaracion, texto, imagen, servicio }) => {
     return (
       <Row xs="auto">
         <Col xs={6} className="noMargen">
-          <TextoCarruselItem titulo={titulo} subtitulo={subtitulo} aclaracion={aclaracion} texto={texto}/>
+          <TextoCarruselItem titulo={titulo} precioCarrusel={precioCarrusel} aclaracion={aclaracion} texto={texto} servicio={servicio}/>
         </Col>
         <Col xs={6} className="noMargen">
           <ImagenCarruselItem imagen={imagen}/>

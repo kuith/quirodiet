@@ -17,30 +17,33 @@ const ContenedorTarjetas = () => {
             <Carousel.Item>
             <TarjetaItem
               titulo="SESIÓN DE ELIMINACIÓN DE TATUAJES"
-              subtitulo="Desde 22 €"
+              precioCarrusel="22"
               aclaracion="(Con bono de 10)"
               texto="Utiliza la presión de aire, a modo de masaje, activando el sistema linfático mejorando la circulación."
               imagen={ImgCarruselTatoo}
+              servicio="#"
             />
             </Carousel.Item>
 
             <Carousel.Item>
               <TarjetaItem
               titulo="SESIÓN DE ELIMINACIÓN DE TATUAJES"
-              subtitulo="Desde 22 €"
+              precioCarrusel="30"
               aclaracion="(Con bono de 10)"
               texto="Utiliza la presión de aire, a modo de masaje, activando el sistema linfático mejorando la circulación."
               imagen={ImgCarruselTatoo}
+              servicio="#"
             />
             </Carousel.Item>
 
             <Carousel.Item>
               <TarjetaItem
               titulo="SESIÓN DE ELIMINACIÓN DE TATUAJES"
-              subtitulo="Desde 22 €"
+              precioCarrusel="22"
               aclaracion="(Con bono de 10)"
               texto="Utiliza la presión de aire, a modo de masaje, activando el sistema linfático mejorando la circulación."
               imagen={ImgCarruselTatoo}
+              servicio="#"
             />
             </Carousel.Item>
           </Carousel>
