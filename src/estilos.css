@@ -89,12 +89,15 @@
 
 .aclaracionCarrusel {
   font-family: 'Baloo 2', cursive;
-  font-size:larger;
+  font-size: larger;
+  margin-bottom: 3em;
 }
 
 .texto {
   font-family: 'Baloo 2', cursive;
   font-size: larger;
+  padding-left: 2em;
+  margin-bottom: 3em;
 }
 
 

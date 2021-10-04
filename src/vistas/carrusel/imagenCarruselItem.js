@@ -3,9 +3,9 @@ import Image from 'react-bootstrap/Image';
 
 
 
-const imagenCarruselItem = (props) => {
+const imagenCarruselItem = ({imagen}) => {
     return (
-      <Image className="imagenCarrusel" src={props.imagen} fluid />
+      <Image className="imagenCarrusel" src={imagen} fluid />
     )
 }
 
