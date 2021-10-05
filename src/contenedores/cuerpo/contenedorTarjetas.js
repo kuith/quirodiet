@@ -3,52 +3,52 @@ import React from 'react';
 import {Carousel} from 'react-bootstrap';
 import Logo from '../../vistas/logo';
 
-import ImgCarruselTatoo from '../../utils/images/carrusel/C_Tatoo.png';
-
 import TarjetaItem from '../../vistas/carrusel/tarjetaItem';
+
+import {
+  carruselQuiromasaje,
+  carruselOsteopatia,
+  carruselPresoterapia,
+  carruselDeportivo,
+  carruselDietetico,
+  carruselBonos,
+  carruselRejuvenecimiento,
+  carruselTatoo
+} from '../../datos/datosCarrusel';
 
 
 const ContenedorTarjetas = () => {
+  const datosCarrusel = [
+    carruselQuiromasaje,
+    carruselOsteopatia,
+    carruselPresoterapia,
+    carruselDeportivo,
+    carruselDietetico,
+    carruselBonos,
+    carruselRejuvenecimiento,
+    carruselTatoo];
 
-    return (
-      <div>
-        <Logo />
-          <Carousel className="carrusel">
-            <Carousel.Item>
-            <TarjetaItem
-              titulo="SESIÓN DE ELIMINACIÓN DE TATUAJES"
-              precioCarrusel="22"
-              aclaracion="(Con bono de 10)"
-              texto="Utiliza la presión de aire, a modo de masaje, activando el sistema linfático mejorando la circulación."
-              imagen={ImgCarruselTatoo}
-              servicio="#"
-            />
-            </Carousel.Item>
+  const carruselTotal = datosCarrusel.map(item =>(
+    <Carousel.Item>
+      <TarjetaItem
+        titulo= {item.titulo}
+        precioCarrusel={item.precioCarrusel}
+        aclaracion={item.aclaracion}
+        texto={item.texto}
+        imagenCarrusel={item.imagenCarrusel}
+        servicio={item.servicio}
+      />
+    </Carousel.Item>
+  ));
 
-            <Carousel.Item>
-              <TarjetaItem
-              titulo="SESIÓN DE ELIMINACIÓN DE TATUAJES"
-              precioCarrusel="30"
-              aclaracion="(Con bono de 10)"
-              texto="Utiliza la presión de aire, a modo de masaje, activando el sistema linfático mejorando la circulación."
-              imagen={ImgCarruselTatoo}
-              servicio="#"
-            />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <TarjetaItem
-              titulo="SESIÓN DE ELIMINACIÓN DE TATUAJES"
-              precioCarrusel="22"
-              aclaracion="(Con bono de 10)"
-              texto="Utiliza la presión de aire, a modo de masaje, activando el sistema linfático mejorando la circulación."
-              imagen={ImgCarruselTatoo}
-              servicio="#"
-            />
-            </Carousel.Item>
-          </Carousel>
-      </div>
-    )
+  return (
+    <div>
+      <Logo />
+      <Carousel className="carrusel">
+        {carruselTotal}
+      </Carousel>
+    </div>
+  )
 }
 
 export default ContenedorTarjetas;

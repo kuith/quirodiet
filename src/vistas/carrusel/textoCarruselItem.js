@@ -11,7 +11,7 @@ const TextoCarruselItem = ({titulo, precioCarrusel, aclaracion, texto, servicio 
         <h3 className="aclaracionCarrusel">{aclaracion}</h3>
         <p className="texto">{texto}</p>
         
-        <Link to={`\servicios\${servicio}`}>
+        <Link to={`servicios/${servicio}`}>
           <Button variant="outline-success">Más información</Button>{" "}  
         </Link>
       </div>
