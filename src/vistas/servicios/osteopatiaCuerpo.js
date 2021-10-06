@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Osteopatia = () => {
+const OsteopatiaCuerpo = () => {
     return (
       <div>
         <h1>Osteopatía</h1>
@@ -8,4 +8,4 @@ const Osteopatia = () => {
     )
 }
 
-export default Osteopatia;
+export default OsteopatiaCuerpo;

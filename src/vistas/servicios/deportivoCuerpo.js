@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Deportivo = () => {
+const DeportivoCuerpo = () => {
     return (
       <div>
         <h1>Deportivo</h1>
@@ -8,4 +8,4 @@ const Deportivo = () => {
     )
 }
 
-export default Deportivo;
+export default DeportivoCuerpo;

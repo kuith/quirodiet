@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Dietetico = () => {
+const DieteticoCuerpo = () => {
     return (
       <div>
         <h1>Dietético</h1>
@@ -8,4 +8,4 @@ const Dietetico = () => {
     )
 }
 
-export default Dietetico;
+export default DieteticoCuerpo;

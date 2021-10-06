@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Bonos = () => {
+const BonosCuerpo = () => {
     return (
       <div>
         <h1>Bonos</h1>
@@ -8,4 +8,4 @@ const Bonos = () => {
     )
 }
 
-export default Bonos;
+export default BonosCuerpo;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tatoo = () => {
+const TatooCuerpo = () => {
     return (
       <div>
         <h1>Eliminación tatuajes</h1>
@@ -8,4 +8,4 @@ const Tatoo = () => {
     )
 }
 
-export default Tatoo;
+export default TatooCuerpo;
