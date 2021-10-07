@@ -118,6 +118,18 @@
   margin: 0 auto
 }
 
+.borde {
+  border: solid purple;
+}
+
 .centrado {
   align-items: center;
 }
+
+/*******Servicios********/
+
+
+
+
+
+/*******Fin Servicios********/

@@ -17,6 +17,10 @@ import PresoterapiaCuerpo from './vistas/servicios/presoterapiaCuerpo';
 import RejuvenecimientoCuerpo from './vistas/servicios/rejuvenecimientoCuerpo';
 import TatooCuerpo from './vistas/servicios/tatooCuerpo';
 
+///Imagenes de las cabeceras de la páginas////
+import Dummy from './utils/images/servicios/700_300_dummy.png';
+///Fin Imágenes de las cabeceras de la páginas///
+
 const App = () => {
   return (
     <Container>
@@ -43,9 +47,11 @@ const App = () => {
           />
           <Route exact path="/servicios/quiromasaje" 
             render={({ match }) => ( <ContenedorServicios 
-              servicio= "Quiromasaje desde el inicio mas" 
+              servicio= "Quiromasaje desde el inicio mas"
+              s_textoImagen="El texto de la imagen de la cabecera. Esto luego lo pillo desde el archivo de configuración y será muy bonito."
+              s_subtextoImagen="Este es el subtexto de la imagen, que irá, a veces debajo del texto de la imagen."
+              s_imagen={Dummy}
               servicioComponente = {<QuiromasajeCuerpo/>}
-
               />)} 
           />
           <Route exact path="/servicios/rejuvenecimiento"

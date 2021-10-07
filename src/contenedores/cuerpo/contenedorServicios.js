@@ -1,9 +1,11 @@
 import React from 'react';
+import CabeceraServicios from '../../vistas/servicios/cabeceraServicios';
 
-const ContenedorServicios = ({servicio, S_titulo, S_subtitulo, S_imagen, servicioComponente}) => {
+const ContenedorServicios = ({servicio, s_textoImagen, s_subtextoImagen, s_imagen, servicioComponente}) => {
     return (
-      <div>
+      <div className="borde">
         <h1>Contenedor servicios</h1>
+        <CabeceraServicios s_textoImagen={s_textoImagen} s_subtextoImagen={s_subtextoImagen} s_imagen={s_imagen}/>
         <h3>Servicio: {servicio}</h3>
         {servicioComponente}
       </div>
