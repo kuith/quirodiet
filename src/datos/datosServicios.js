@@ -5,7 +5,7 @@ import ImgServiciosDeportivo from '../utils/images/servicios/servicioDeportivo.p
 import ImgServiciosDietetico from '../utils/images/servicios/servicioDietetico.png';
 import ImgServiciosBonos from '../utils/images/servicios/servicioBonos.png';
 import ImgServiciosFacial from '../utils/images/servicios/servicioFacial.png';
-import ImgServiciosTatoo from '../utils/images/servicios/servivioTatoo.png';
+import ImgServiciosTatoo from '../utils/images/servicios/servicioTatoo.png';
 
 const quiromasaje = {
     imagen: ImgServiciosQuiromasaje,

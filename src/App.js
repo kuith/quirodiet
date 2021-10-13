@@ -18,6 +18,8 @@ import PresoterapiaCuerpo from './vistas/servicios/presoterapiaCuerpo';
 import RejuvenecimientoCuerpo from './vistas/servicios/rejuvenecimientoCuerpo';
 import TatooCuerpo from './vistas/servicios/tatooCuerpo';
 
+import * as datosServicios from './datos/datosServicios';
+
 
 
 ///Imagenes de las cabeceras de la páginas////
@@ -54,9 +56,9 @@ const App = () => {
               servicioComponente = {<QuiromasajeCuerpo/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={Dummy}
-                s_textoImagen="El texto de la imagen de la cabecera. Esto luego lo pillo desde el archivo de configuración y será muy bonito."
-                s_subtextoImagen="Este es el subtexto de la imagen, que irá, a veces debajo del texto de la imagen."
+                s_imagen={datosServicios.quiromasaje.imagen}
+                s_textoImagen={datosServicios.quiromasaje.textoImagen}
+                s_subtextoImagen={datosServicios.quiromasaje.suxtextImagen}
               />}
               />)} 
           />
