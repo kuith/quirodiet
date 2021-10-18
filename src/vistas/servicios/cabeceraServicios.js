@@ -7,9 +7,9 @@ import { Image } from 'react-bootstrap';
 
 const CabeceraServicios = ({s_textoImagen, s_subtextoImagen, s_logo, s_imagen}) => {
   return (
-      <Row xs="auto serviciosGeneral">
+      <Row xs="auto">
         <Col xs={4}>
-          <div className=" paraCentrarLogo">
+          <div className="paraCentrarLogo">
           <Image src={s_logo} fluid className="logoServicios centrado"/>
           </div>
         </Col>

@@ -1,9 +1,8 @@
 import React from 'react';
-import imageIntro from '../utils/images/imagenIntro.png';
 
-const Intro = () => {
+const Intro = ({imagenIntro}) => {
     return (
-        <img src={imageIntro} className="img-fluid " alt="imagen Inicio."></img>
+        <img src={imagenIntro} className="img-fluid" alt="imagen Inicio."></img>
     )
 }
 

@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContenedorServicios = ({servicioComponente, cabeceraServicios}) => {
     return (
-      <div className="fuenteServicios">
+      <div>
         {cabeceraServicios}
         {servicioComponente}
       </div>

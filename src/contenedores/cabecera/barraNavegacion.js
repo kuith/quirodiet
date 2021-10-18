@@ -10,7 +10,6 @@ const BarraNavegacion = () => {
         transparent 
         navbar-inverse 
         navbar-fixed-top
-        
         acmeNavbar ">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbartoggler-icon"></span>

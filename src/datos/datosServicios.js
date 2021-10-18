@@ -20,7 +20,7 @@ const quiromasaje = {
     quiromasajeJubilados: 30,
 }
 
-const Osteopatia = {
+const osteopatia = {
     imagen:ImgServiciosOsteopatia,
     textoImagen:"Método de tratamiento de las dolencias que se basa en los masajes y la manipulación de las articulaciones; se fundamenta en la teoría de que el cuerpo es capaz de elaborar sus propios remedios contra las enfermedades.",
     subtextoImagen:"Se aplica gratuitamente a criterio profesional. No varía el precio del masaje."
@@ -33,15 +33,15 @@ const presoterapia = {
     presoterapiaSesion: 30
 }
 
-const Deportivo = {
+const deportivo = {
     imagen: ImgServiciosDeportivo,
-    textoImagen:"¿Quieres una tabla de ejercicios? ¿Alguien que te asesore sobre tus entrenamientos? Ven y cuentanos tus propositos.",
+    textoImagen:"¿Quieres una tabla de ejercicios? ¿Alguien que te asesore sobre tus entrenamientos? Ven y cuentanos tus propósitos.",
     subtextoImagen:"Rutinas para entrenamiento personalizadas.",
     asesoramientoDeportivoVolumen: 20,
     asesoramientoDeportivoTonificacion: 20
 }
 
-const Dietetico = {
+const dietetico = {
     imagen: ImgServiciosDietetico,
     textoImagen:"¿Quieres ganar o perder peso? Ven a vernos no te arrepentiras.",
     subtextoImagen:"",
@@ -74,10 +74,10 @@ const tatoo = {
 
 export {
     quiromasaje,
-    Osteopatia,
+    osteopatia,
     presoterapia,
-    Deportivo,
-    Dietetico,
+    deportivo,
+    dietetico,
     bonos,
     facial,
     tatoo
