@@ -71,7 +71,7 @@ const App = () => {
           />
           <Route exact path="/servicios/osteopatia"
             render={({ match }) => ( <ContenedorServicios 
-              servicioComponente = {<OsteopatiaCuerpo datosCuerpo = {datosServicios.osteopatia}/>}
+              servicioComponente = {<OsteopatiaCuerpo/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
                 s_imagen={datosServicios.osteopatia.imagen}

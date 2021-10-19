@@ -1,9 +1,14 @@
 import React from 'react';
 
-const DeportivoCuerpo = () => {
+const DeportivoCuerpo = ({datosCuerpo}) => {
     return (
-      <div>
-        <h1>Deportivo</h1>
+      <div  className="textoCuerpoServicio">
+        <p>
+          Para conseguir volumen muscular. Tarifa de {datosCuerpo.volumen} € ( por tabla ).
+        </p>
+        <p>
+          Para conseguir tonificación y definición. Tarifa de {datosCuerpo.tonificacion} € ( por tabla ).
+        </p>
       </div>
     )
 }

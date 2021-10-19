@@ -1,9 +1,17 @@
 import React from 'react';
 
-const TatooCuerpo = () => {
+const TatooCuerpo = ({datosCuerpo}) => {
     return (
-      <div>
-        <h1>Eliminación tatuajes</h1>
+      <div className="textoCuerpoServicio">
+        <p>
+        Si estás pensando en elimiar tu tatuaje, ahora es el momento.
+        </p>
+        <p>
+        Consulta nuestros precios dependiendo del tamaño y color.
+        </p>
+        <p>
+        Tarifa desde {datosCuerpo.tatoo} €
+        </p>
       </div>
     )
 }

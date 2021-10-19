@@ -10,7 +10,7 @@ import ImgServiciosTatoo from '../utils/images/servicios/servicioTatoo.png';
 const quiromasaje = {
     imagen: ImgServiciosQuiromasaje,
     textoImagen: "Quiromasaje es una forma de masaje manual procedente del masaje sueco cuya técnica se basa en amasar, frotar y golpear las partes superficiales del cuerpo con las manos.",
-    suxtextImagen:"La aplicación de vendaje neuromuscular no varía el precio.",
+    subtextoImagen:"La aplicación de vendaje neuromuscular no varía el precio.",
     quiromasajeDeportivo: 30,
     quiromasajeRelajante: 30,
     quiromasajeCirculatorio: 30,
@@ -37,16 +37,16 @@ const deportivo = {
     imagen: ImgServiciosDeportivo,
     textoImagen:"¿Quieres una tabla de ejercicios? ¿Alguien que te asesore sobre tus entrenamientos? Ven y cuentanos tus propósitos.",
     subtextoImagen:"Rutinas para entrenamiento personalizadas.",
-    asesoramientoDeportivoVolumen: 20,
-    asesoramientoDeportivoTonificacion: 20
+    volumen: 20,
+    tonificacion: 20
 }
 
 const dietetico = {
     imagen: ImgServiciosDietetico,
     textoImagen:"¿Quieres ganar o perder peso? Ven a vernos no te arrepentiras.",
     subtextoImagen:"",
-    asesoramientoDieteticoPrimera: 25,
-    asesoramientoDieteticoSeguimiento: 20
+    primera: 25,
+    seguimiento: 20
 }
 
 const bonos = {
@@ -63,13 +63,15 @@ const bonos = {
 const facial = {
     imagen: ImgServiciosFacial,
     textoImagen: "Haz un regalo original para ocasiones especiales.",
-    subtextoImagen:""
+    subtextoImagen:"",
+    facial: 60
 }
 
 const tatoo = {
     imagen: ImgServiciosTatoo,
     textoImagen:"Si te has cansado de tu tatuaje, recuerda que se puede eliminar.",
-    subtextoImagen:""
+    subtextoImagen:"",
+    tatoo: "60 / 80"
 }
 
 export {

@@ -1,5 +1,6 @@
 .acmeNavbar {
   font-size: 2.5em;
+  font-weight: bold;
 }
 
 .navBarAncho {
@@ -128,7 +129,7 @@
  
 }
 .textoSubtituloServicios {
-  font-size: 1em;
+  font-size: 1.2em;
   padding-left: 2em;
   text-align: center;
 }
@@ -139,6 +140,7 @@
 
 .textoCuerpoServicio {
   font-size: 1.5em;
+  text-align: justify;
 }
 
 li {
