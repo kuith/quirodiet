@@ -18,7 +18,7 @@ const BarraNavegacion = () => {
             <div class="navbar-nav">
                 <Link class="nav-link col" to="/">Inicio</Link>
                 <Link class="nav-link col" to="/servicios">Servicios</Link>
-                <Link class="nav-link col" to="#">Contacto</Link>
+                <Link class="nav-link col" to="/contacto">Contacto</Link>
               </div>
           </div>
       </nav>

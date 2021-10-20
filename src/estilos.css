@@ -150,7 +150,11 @@ li {
 .tarifa {
   font-style: oblique;
 }
-
-
-
 /*******Fin Servicios********/
+
+/*********Contato******/
+.imagenContacto {
+  width: auto;
+  height: auto;
+}
+/*********Fin Contato******/

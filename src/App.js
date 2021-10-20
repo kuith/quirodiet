@@ -19,6 +19,8 @@ import PresoterapiaCuerpo from './vistas/servicios/presoterapiaCuerpo';
 import RejuvenecimientoCuerpo from './vistas/servicios/rejuvenecimientoCuerpo';
 import TatooCuerpo from './vistas/servicios/tatooCuerpo';
 
+import ContenedorContacto from './contenedores/cuerpo/contenedorContacto';
+
 import * as datosServicios from './datos/datosServicios';
 
 ///Imagenes de las cabeceras de la páginas////
@@ -41,42 +43,34 @@ const App = () => {
               servicioComponente = {<BonosCuerpo datosCuerpo = {datosServicios.bonos}/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={datosServicios.bonos.imagen}
-                s_textoImagen={datosServicios.bonos.textoImagen}
-                s_subtextoImagen={datosServicios.bonos.subtextoImagen}
+                datosCabecera = {datosServicios.bonos}
               />}
-              />)} 
+            />)} 
           />
           <Route exact path="/servicios/deportivo"
             render={({ match }) => ( <ContenedorServicios 
               servicioComponente = {<DeportivoCuerpo datosCuerpo = {datosServicios.deportivo}/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={datosServicios.deportivo.imagen}
-                s_textoImagen={datosServicios.deportivo.textoImagen}
-                s_subtextoImagen={datosServicios.deportivo.subtextoImagen}
+                datosCabecera = {datosServicios.deportivo}
               />}
-              />)} 
+            />)} 
           />
           <Route exact path="/servicios/dietetico"
             render={({ match }) => ( <ContenedorServicios 
               servicioComponente = {<DieteticoCuerpo datosCuerpo = {datosServicios.dietetico}/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={datosServicios.dietetico.imagen}
-                s_textoImagen={datosServicios.dietetico.textoImagen}
-                s_subtextoImagen={datosServicios.dietetico.subtextoImagen}
+                datosCabecera = {datosServicios.dietetico}
               />}
-              />)}
+            />)}
           />
           <Route exact path="/servicios/osteopatia"
             render={({ match }) => ( <ContenedorServicios 
               servicioComponente = {<OsteopatiaCuerpo/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={datosServicios.osteopatia.imagen}
-                s_textoImagen={datosServicios.osteopatia.textoImagen}
-                s_subtextoImagen={datosServicios.osteopatia.subtextoImagen}
+                datosCabecera = {datosServicios.osteopatia}
               />}
               />)}
           />
@@ -85,45 +79,38 @@ const App = () => {
               servicioComponente = {<PresoterapiaCuerpo datosCuerpo = {datosServicios.presoterapia}/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={datosServicios.presoterapia.imagen}
-                s_textoImagen={datosServicios.presoterapia.textoImagen}
-                s_subtextoImagen={datosServicios.presoterapia.subtextoImagen}
+                datosCabecera = {datosServicios.presoterapia}
               />}
-              />)} 
+            />)} 
           />
           <Route exact path="/servicios/quiromasaje" 
             render={({ match }) => ( <ContenedorServicios 
               servicioComponente = {<QuiromasajeCuerpo datosCuerpo = {datosServicios.quiromasaje}/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={datosServicios.quiromasaje.imagen}
-                s_textoImagen={datosServicios.quiromasaje.textoImagen}
-                s_subtextoImagen={datosServicios.quiromasaje.subtextoImagen}
+                datosCabecera = {datosServicios.quiromasaje}
               />}
-              />)} 
+            />)} 
           />
           <Route exact path="/servicios/rejuvenecimiento"
             render={({ match }) => ( <ContenedorServicios 
               servicioComponente = {<RejuvenecimientoCuerpo datosCuerpo = {datosServicios.facial}/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={datosServicios.facial.imagen}
-                s_textoImagen={datosServicios.facial.textoImagen}
-                s_subtextoImagen={datosServicios.facial.subtextoImagen}
+                datosCabecera = {datosServicios.facial}
               />}
-              />)} 
+            />)} 
           />
           <Route exact path="/servicios/tatoo"
             render={({ match }) => ( <ContenedorServicios 
               servicioComponente = {<TatooCuerpo datosCuerpo = {datosServicios.tatoo}/>}
               cabeceraServicios = {<CabeceraServicios 
                 s_logo={LogoServicios}
-                s_imagen={datosServicios.tatoo.imagen}
-                s_textoImagen={datosServicios.tatoo.textoImagen}
-                s_subtextoImagen={datosServicios.tatoo.subtextoImagen}
+                datosCabecera = {datosServicios.tatoo}
               />}
-              />)}
+            />)}
           />
+          <Route exact path="/contacto" component={ContenedorContacto} />
         </Switch>
       </BrowserRouter>
     </Container>

@@ -5,21 +5,20 @@ import Col from 'react-bootstrap/Col';
 import { Image } from 'react-bootstrap';
 
 
-const CabeceraServicios = ({s_textoImagen, s_subtextoImagen, s_logo, s_imagen}) => {
+const CabeceraServicios = ({datosCabecera, s_logo}) => {
   return (
-      <Row xs="auto">
-        <Col xs={4}>
-          <div className="paraCentrarLogo">
-          <Image src={s_logo} fluid className="logoServicios centrado"/>
-          </div>
-        </Col>
-        <Col xs={8}>
-          <Image src={s_imagen} fluid className="imagenServicios"/>
-          <p className="textoTituloServicios ">{s_textoImagen}</p>
-          <p className="textoSubtituloServicios ">{s_subtextoImagen}</p>
-        </Col>
-      </Row>
-
+    <Row xs="auto">
+      <Col xs={4}>
+        <div className="paraCentrarLogo">
+        <Image src={s_logo} fluid className="logoServicios centrado"/>
+        </div>
+      </Col>
+      <Col xs={8}>
+        <Image src={datosCabecera.imagen} fluid className="imagenServicios"/>
+        <p className="textoTituloServicios ">{datosCabecera.textoImagen}</p>
+        <p className="textoSubtituloServicios ">{datosCabecera.subtextoImagen}</p>
+      </Col>
+    </Row>
   );
 }
 
