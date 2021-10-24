@@ -4,20 +4,24 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Logo from '../../vistas/logo';
-import CuerpoContacto from '../../vistas/cuerpoContacto';
+import CuerpoContacto from '../../vistas/contacto/textoContacto';
+import MapaContacto from '../../vistas/contacto/mapaCpntacto';
 
 const ContenedorContacto = () => {
     return (
+      <>
+      <Logo/>
       <div className="textoCuerpoServicio">
         <Row xs="auto">
-          <Col xs={4} className="imagenContacto">
-            {<Logo />}
+          <Col xs={6} className="imagenContacto">
+            <MapaContacto />
           </Col>
-          <Col xs={8}>
+          <Col xs={6}>
             {<CuerpoContacto />}
           </Col>
         </Row>
       </div>
+      </>
     )
 }
 

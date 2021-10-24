@@ -20,12 +20,15 @@ import RejuvenecimientoCuerpo from './vistas/servicios/rejuvenecimientoCuerpo';
 import TatooCuerpo from './vistas/servicios/tatooCuerpo';
 
 import ContenedorContacto from './contenedores/cuerpo/contenedorContacto';
+import Instalaciones from './vistas/instalaciones/instalaciones';
 
 import * as datosServicios from './datos/datosServicios';
 
 ///Imagenes de las cabeceras de la páginas////
 import LogoServicios from './utils/images/logprincipal_trans.png';
 ///Fin Imágenes de las cabeceras de la páginas///
+
+import { imagenesInstalaciones } from './datos/datosInstalaciones';
 
 const App = () => {
   return (
@@ -111,6 +114,10 @@ const App = () => {
             />)}
           />
           <Route exact path="/contacto" component={ContenedorContacto} />
+          <Route exact path="/instalaciones" 
+            render={({match})=> (
+              <Instalaciones imagenesInstalaciones = {imagenesInstalaciones}/>
+            )} />
         </Switch>
       </BrowserRouter>
     </Container>

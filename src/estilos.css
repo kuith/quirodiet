@@ -83,7 +83,7 @@
 }
 
 .borde {
-  border: solid purple;
+  border: solid rgb(0, 0, 0);
 }
 
 .centrado {
@@ -156,5 +156,33 @@ li {
 .imagenContacto {
   width: auto;
   height: auto;
+}
+
+.textoCentrado {
+  text-align: center;
+}
+
+.textoContactoDireccion {
+  font-weight:bolder;
+  font-size: larger;
+}
+
+.textoContactoInfo {
+  font-weight: bold;
+  font-size: large;
+}
+
+.textoCorreo {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.linkCorreo {
+  text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color:brown;
 }
 /*********Fin Contato******/
